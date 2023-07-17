@@ -1,0 +1,25 @@
+.horned-beast {
+    background-color: lightgray;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    /* Add any other CSS styles you like */
+  }
+  
+  .horned-beast h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .horned-beast img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .horned-beast p {
+    font-size: 16px;
+  }
+  
