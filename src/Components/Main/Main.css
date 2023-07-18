@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 45px 45px; 
+}
+
+.hb-container {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 4px solid white;
+  border-radius: 8px;
+  background-color: orange;
+}
+
+.hb-image {
+  width: 100%;
+  height: auto;
+  max-height: 80%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.hb-title {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hb-description {
+  margin-bottom: 10px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.heart {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
