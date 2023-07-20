@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Form handleFilterChange={handleFilterChange} /> {/* Render the Form component and pass the handleFilterChange function */}
+      <Form handleFilterChange={handleFilterChange} /> {}
       <Main beastsData={data} filter={selectedFilter} onBeastSelect={handleBeastSelection} />
       {selectedBeast && <HornedBeast beast={selectedBeast} onClose={() => setSelectedBeast(null)} />}
       <Footer />

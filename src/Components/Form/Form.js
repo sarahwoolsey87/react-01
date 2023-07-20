@@ -2,7 +2,7 @@ import React from 'react';
 import './Form.css';
 
 const Form = ({ handleFilterChange }) => {
-  const options = ['All', '1', '2', '3', 'More']; // Update the last option value to "More"
+  const options = ['All', '1', '2', '3', 'More']; 
 
   const handleChange = (event) => {
     const selectedOption = event.target.value;
