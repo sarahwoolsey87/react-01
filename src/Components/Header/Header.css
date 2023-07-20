@@ -1,7 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 .title {
   font-size: 32px;
   font-weight: bold;
-  color: orange; 
+  color: orange;
+  font-family: 'VT323', monospace; 
+  text-shadow: 2px 2px 4px rgba(255, 165, 0, 0.5); 
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .header {
