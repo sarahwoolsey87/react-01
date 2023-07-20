@@ -23,3 +23,26 @@
     font-size: 16px;
   }
   
+.hb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: orange;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hb-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.hb-content {
+  font-size: 16px;
+  text-align: center;
+}
